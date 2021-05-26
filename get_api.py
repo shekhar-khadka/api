@@ -1,4 +1,4 @@
-#Implementing the get id
+#Implementing the get API
 from flask import Flask, jsonify
 
 app=Flask(__name__)
@@ -44,13 +44,7 @@ Nepal=[{
 "capital":"surkhet",
 "CM":"shai",
 }
-,
-{
 
-"name":"province 7",
-"capital":"dhangadi",
-"CM":"bhatta",
-}
 ]
 
 
